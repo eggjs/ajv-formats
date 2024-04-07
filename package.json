@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajv-validator/ajv-formats.git"
+    "url": "git+https://github.com/eggjs/ajv-formats.git"
   },
   "keywords": [
     "Ajv",
@@ -31,19 +31,11 @@
   "author": "Evgeny Poberezkin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ajv-validator/ajv-formats/issues"
+    "url": "https://github.com/eggjs/ajv-formats/issues"
   },
-  "homepage": "https://github.com/ajv-validator/ajv-formats#readme",
+  "homepage": "https://github.com/eggjs/ajv-formats#readme",
   "dependencies": {
     "ajv": "^8.0.0"
-  },
-  "peerDependencies": {
-    "ajv": "^8.0.0"
-  },
-  "peerDependenciesMeta": {
-    "ajv": {
-      "optional": true
-    }
   },
   "devDependencies": {
     "@ajv-validator/config": "^0.3.0",
@@ -51,7 +43,6 @@
     "@types/node": "^14.10.1",
     "@typescript-eslint/eslint-plugin": "^3.7.0",
     "@typescript-eslint/parser": "^3.7.0",
-    "ajv": "^8.0.0",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
     "husky": "^4.2.5",
@@ -70,5 +61,8 @@
   },
   "lint-staged": {
     "*.{md,json,yaml,js,ts}": "prettier --write"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

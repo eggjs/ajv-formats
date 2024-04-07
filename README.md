@@ -1,5 +1,7 @@
 # ajv-formats
 
+> forked: remove `peerDependencies` and let it can dependency by eggjs.
+
 JSON Schema formats for Ajv
 
 [![Build Status](https://travis-ci.org/ajv-validator/ajv-formats.svg?branch=master)](https://travis-ci.org/ajv-validator/ajv-formats)
